@@ -5,7 +5,7 @@ using UnityEngine;
 public class RestartScript : MonoBehaviour
 {
    public bool ok = false;
-    private void OnMouseDown()
+   public void Activate()
     {
         ok = true;
     }

@@ -5,8 +5,9 @@ using UnityEngine;
 public class UndoScript : MonoBehaviour
 {
     public bool ok = false;
-    private void OnMouseDown()
+    public void Activate()
     {
         ok = true;
     }
 }
+
